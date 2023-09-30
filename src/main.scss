@@ -1,0 +1,83 @@
+$default: #c5c5c5;
+ $current:#e2e2e2; 
+/* default */
+
+.completed {
+  color: green;
+}
+.canceled {
+  color: red;
+}
+
+.date {
+  margin-left: 10px;
+  font-size: 12px;
+  color: rgb(128, 128, 128);
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+}
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+  position: relative;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+li .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li .subtask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+li .task button {
+  margin-left: 10px;
+}
+li .subtask button {
+  margin-left: 10px;
+}
+.completed {
+  color: green;
+}
